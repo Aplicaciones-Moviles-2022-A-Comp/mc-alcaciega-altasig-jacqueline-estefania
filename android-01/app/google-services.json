@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1000433831049",
+    "project_id": "movcompjeaa2022",
+    "storage_bucket": "movcompjeaa2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000433831049:android:0a534849a2365d27624a58",
+        "android_client_info": {
+          "package_name": "com.example.movcompjeaa2022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000433831049-67h2cj6n5p6v4pg5tn2787d3t5fugaba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK7d9xpGJxg4P9rXeJJRu92KjI8sV8Tbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000433831049-67h2cj6n5p6v4pg5tn2787d3t5fugaba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
