@@ -1,0 +1,48 @@
+ESCUELA POLITECNICA NACIONAL
+APLICACIONES MÓVILES
+
+PROFESOR: Eguez Vicente
+ALUMNA: Alcaciega Jacqueline
+
+
+¿QUÉ ES FIREBASE DE GOOGLE?
+Es una plataforma digital que se utiliza para facilitar el desarrollo de aplicaciones web o móviles de una forma efectiva, rápida y sencilla, la cual es utilizada por sus diversas funciones como una técnica de Marketing Digital para aumentar la base de usuarios y generar mayores beneficios económicos.
+Su principal objetivo, es mejorar el rendimiento de las apps mediante la implementación de diversas funcionalidades que van a hacer de la aplicación en cuestión, mucho más manejable, segura y de fácil acceso para los usuarios.
+
+¿QUÉ PODEMOS HACER CON FIREBASE?
+o	Lograr una integración dinámica de los usuarios usando Firebase Authentication;
+o	Lograr que nuestras aplicaciones sean visualizadas y utilizadas utilizando la herramienta de compartir o Dynamic Links;
+o	Enviar notificaciones a varias plataformas con Cloud Messaging;
+o	Crear análisis de resultados con Analytics;
+o	Ahora bien, te voy a dar dos ejemplos sobre lo que podemos hacer con Firebase:
+o	A la hora de implementar funciones, pueden ser probadas con antelación en un subconjunto de la base de usuarios para verificar si funciona y cómo estos reaccionan ante esta.
+o	Comunícate con tus usuarios a través de In-app messaging, esto se utiliza para mejorar la experiencia del usuario y fidelizarlo con la app, además, puedes guiarlos y así convertirlos en potenciales clientes.
+
+IMPORTANCIA
+La importancia de las funcionalidades de Firebase, es que, gracias a estas los developers o desarrolladores pueden adaptar la plataforma a medida de sus necesidades.
+
+
+
+
+
+PRINCIPALES CARACTERÍSTICAS DE FIREBASE
+Esta plataforma móvil tiene distintas características, repasemos alguna de ellas:
+1.	Es una herramienta soportada en múltiples plataformas
+Firebase, se encuentra disponible para las principales plataformas móviles, ya sea Android, IOS o la Web.
+2.	Permite ganar dinero
+Mediante el uso de Admob, firebase habilita la posibilidad de generar dinero mediante anuncios y publicidades.
+3.	Permite un desarrollo gratuito de tus apps
+Esta plataforma digital, no pide pagar para la iniciación y uso de la misma.
+Empieza a cobrar a la hora de manejarte en un nivel más avanzado y experimentado, puedes solicitar planes de mayor jerarquía según el uso que vayas a darle.
+4.	Genera crecimiento y desarrollo en tus aplicaciones
+Esta es una de las características más importantes, puesto que se centra en el objetivo primordial de todo lo que es Firebase.
+Mediante los servicios ofrecidos, permite que puedas desarrollar de una forma sencilla, segura y rápida tus aplicaciones en el dispositivo que te encuentres.
+
+SERVICIOS
+Real time data base: nos ayudan, dándonos una base de datos en tiempo real.
+Autenticación: se ejecutan para identificar a los usuarios mediante el email o las redes sociales.
+Nube de almacenamiento: almacenamiento y envío de archivos a la escala de Google.
+Hosting: se usa para publicar nuestra página web.
+Remote config: se emplea para modificar ciertos aspectos de nuestra app sin la necesidad de actualizar la misma.
+Test lab: es para probar la aplicación antes de publicarla.
+Crash reporting: se utiliza para reportar errores de la aplicación.
