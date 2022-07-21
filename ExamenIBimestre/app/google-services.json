@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "845369685193",
+    "project_id": "examenmoviles-a05e3",
+    "storage_bucket": "examenmoviles-a05e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845369685193:android:1bbc606bf76d82f2388918",
+        "android_client_info": {
+          "package_name": "com.example.examenIBimestreAlcaciega"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845369685193-q2foh2i25b8u8guvd71ao55ue7cfmgep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq6_MGoqbFtzKdvk5H1xpIvh-BNmSm_II"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845369685193-q2foh2i25b8u8guvd71ao55ue7cfmgep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

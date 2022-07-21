@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mi_verplanetas"
+        android:title="Ver Planetas" />
+    <item
+        android:id="@+id/mi_editar_SO"
+        android:title="Editar"/>
+    <item
+        android:id="@+id/mi_eliminar_SO"
+        android:title="Eliminar"/>
+</menu>
