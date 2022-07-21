@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">examenIBimestreAlcaciega</string>
+    <string name="titulo_pantallaSO" translatable="false">UNIVERSO</string>
+    <!--Aniadir SO-->
+    <string name="aniadir" translatable="false">Crear</string>
+    <string name="titulo_pantallaAnadirUniverso" translatable="false">Crear Universo</string>
+    <string name="hint_aniadir_nombreUniverso" translatable="false">Nombre del Universo</string>
+    <string name="anadir_planeta" translatable="false">Crear Planeta</string>
+    <string name="salir" translatable="false">Salir</string>
+    <string name="editar_nombre_Universo" translatable="false">Editar Nombre del Universo</string>
+    <string name="cancelar" translatable="false">Cancelar</string>
+    <string name="actualizar" translatable="false">Actualizar</string>
+    <string name="planetas" translatable="false">PLANETAS</string>
+    <string name="nombre_planeta" translatable="false">Nombre del Planeta</string>
+    <string name="editar_nombre_planeta" translatable="false">Editar Nombre Planeta</string>
+</resources>
