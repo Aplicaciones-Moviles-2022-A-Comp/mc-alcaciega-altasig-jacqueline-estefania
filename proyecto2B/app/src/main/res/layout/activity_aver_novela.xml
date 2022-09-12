@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D52196F3"
+    tools:context=".AVerNovela">
+
+    <TextView
+        android:id="@+id/tv_label_decripcion"
+        android:layout_width="101dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="24dp"
+        android:text="Descripción"
+        app:layout_constraintBottom_toTopOf="@+id/tv_ver_descripcion"
+        app:layout_constraintEnd_toEndOf="@+id/tv_ver_descripcion"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_ver_descripcion" />
+
+    <TextView
+        android:id="@+id/tv_label_titulo"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="24dp"
+        android:text="Titulo"
+        app:layout_constraintBottom_toTopOf="@+id/tv_ver_titulo"
+        app:layout_constraintEnd_toEndOf="@+id/tv_ver_titulo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_ver_titulo" />
+
+    <TextView
+        android:id="@+id/tv_ver_titulo"
+        android:layout_width="72dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="28dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tv_label_decripcion"
+        app:layout_constraintEnd_toEndOf="@+id/tv_label_decripcion"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_label_decripcion" />
+
+    <TextView
+        android:id="@+id/tv_label_likes"
+        android:layout_width="45dp"
+        android:layout_height="17dp"
+        android:text="Likes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_ver_likes"
+        android:layout_width="64dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/tv_label_likes"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_label_likes"
+        app:layout_constraintTop_toBottomOf="@+id/tv_label_likes" />
+
+    <TextView
+        android:id="@+id/tv_ver_descripcion"
+        android:layout_width="96dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="28dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tv_label_likes"
+        app:layout_constraintEnd_toEndOf="@+id/tv_label_likes"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_label_likes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

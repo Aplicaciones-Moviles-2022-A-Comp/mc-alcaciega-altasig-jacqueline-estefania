@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D52196F3"
+    tools:context=".ACrearNovela">
+
+    <EditText
+        android:id="@+id/et_titulo_novela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:hint="Titulo de la novela"
+        android:inputType="textPersonName"
+        android:textColorHint="#BA151414"
+        app:layout_constraintBottom_toTopOf="@+id/et_descripcion_novela"
+        app:layout_constraintEnd_toEndOf="@+id/et_descripcion_novela"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_descripcion_novela" />
+
+    <EditText
+        android:id="@+id/et_descripcion_novela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="Descripción de la novela"
+        android:inputType="textPersonName"
+        android:textColorHint="#BA151414"
+        app:layout_constraintBottom_toTopOf="@+id/et_likes_novela"
+        app:layout_constraintEnd_toEndOf="@+id/et_likes_novela"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_likes_novela" />
+
+    <EditText
+        android:id="@+id/et_likes_novela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:hint="Likes de la novela"
+        android:inputType="textPersonName"
+        android:textColorHint="#BA151414"
+        app:layout_constraintBottom_toTopOf="@+id/btn_crear_novela"
+        app:layout_constraintEnd_toEndOf="@+id/btn_crear_novela"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/btn_crear_novela" />
+
+    <Button
+        android:id="@+id/btn_crear_novela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#043F6E"
+        android:text="Crear Novela"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="cursive"
+        android:text="NovelApp"
+        android:textAlignment="center"
+        android:textColor="#F3F2F2"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_titulo_novela"
+        app:layout_constraintEnd_toEndOf="@+id/et_titulo_novela"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="@+id/et_titulo_novela" />
+</androidx.constraintlayout.widget.ConstraintLayout>

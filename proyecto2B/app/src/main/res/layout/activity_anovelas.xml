@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D52196F3"
+    tools:context=".ANovelas">
+
+    <TextView
+        android:id="@+id/tv_libros"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="#0F7CD3"
+        android:fontFamily="casual"
+        android:text="Novelas"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lv_novelas"
+        app:layout_constraintEnd_toEndOf="@+id/lv_novelas"
+        app:layout_constraintStart_toStartOf="@+id/lv_novelas" />
+
+    <Button
+        android:id="@+id/btn_ir_crear_novela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#043F6E"
+        android:text="Crear"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/lv_novelas"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/lv_novelas"
+        app:layout_constraintTop_toBottomOf="@+id/lv_novelas" />
+
+    <ListView
+        android:id="@+id/lv_novelas"
+        android:layout_width="335dp"
+        android:layout_height="363dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
+</androidx.constraintlayout.widget.ConstraintLayout>
