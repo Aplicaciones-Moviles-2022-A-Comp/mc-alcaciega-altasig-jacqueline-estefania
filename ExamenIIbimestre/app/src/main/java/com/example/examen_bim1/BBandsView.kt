@@ -27,7 +27,7 @@ class BBandsView : AppCompatActivity() {
     //Vbles firestore
     var arregloB:ArrayList<BBanda> = arrayListOf()
     val db = Firebase.firestore
-    val bandas = db.collection("bands")
+    val bandas = db.collection("universo")
     var bandaSeleccion = BBanda(0,"","","",true,0)
 
 
@@ -35,7 +35,7 @@ class BBandsView : AppCompatActivity() {
         if (result.resultCode == Activity.RESULT_OK){
             if (result.data != null){
                 val data = result.data
-                Log.i("intent-epn", "${data?.getStringExtra("Se abre interfaz Canciones")}")
+                Log.i("intent-epn", "${data?.getStringExtra("Se abre interfaz Universo")}")
             }
         }
     }
@@ -86,7 +86,7 @@ class BBandsView : AppCompatActivity() {
         val numeroIntB = dialogLayout.findViewById<EditText>(R.id.input_numeroIntB)
 
         with(builder) {
-            setTitle("Añadir Banda")
+            setTitle("Añadir Universo")
             setPositiveButton("Aceptar") { dialog, which ->
                 //Por positivo
                 insertarBanda(
@@ -110,7 +110,7 @@ class BBandsView : AppCompatActivity() {
 
         val idBanda = arregloB[idItemSeleccionado].idBanda
         val builder = AlertDialog.Builder(this)
-        builder.setTitle("¿Desea eliminar la banda seleccionada?")
+        builder.setTitle("¿Desea eliminar el universo seleccionada?")
         builder.setPositiveButton(
             "Aceptar",DialogInterface.OnClickListener { dialog, which ->
                 eliminarBanda(idBanda)
@@ -177,7 +177,7 @@ class BBandsView : AppCompatActivity() {
         val idBanda=arregloB[idItemSeleccionado].idBanda
         bandaSeleccion = arregloB[idItemSeleccionado]
         intentExplicito.putExtra("idSeleccion",idBanda)
-        intentExplicito.putExtra("bandaSelected",bandaSeleccion)
+        intentExplicito.putExtra("universoSelected",bandaSeleccion)
 
         contenidoIntentExplicito.launch(intentExplicito)
     }
@@ -186,33 +186,33 @@ class BBandsView : AppCompatActivity() {
     fun crearDatosBase(){
 
         val banda1= hashMapOf(
-            "idBanda" to 1,
-            "nombre" to "Modern Talking",
-            "fechaCreacion" to "17-02-1980",
-            "lugarOrigen" to "Alemania",
+            "idUniverso" to 1,
+            "nombre" to "tierra",
+            "fechaCreacion" to "infinito",
+            "lugarOrigen" to "Espacio",
             "isActive" to false,
-            "numIntegrantes" to 2
+            "numPalnetas" to 10
         )
 
         val cancion11 = hashMapOf(
-            "idCancion" to 1,
-            "nombreC" to "Jet Airliner",
-            "duracion" to "04:35:13",
-            "fechaLanzamieto" to "01-01-1998",
-            "isSingle" to true,
-            "numPista" to 14,
-            "gananciasSencillo" to 14.32,
-            "idBanda" to 1
+            "idUniverso" to 1,
+            "nombreUniverso" to "Jet Airliner",
+            "estrellas" to "04:35:13",
+            "tamaño" to "01-01-1998",
+            "isBIG" to true,
+            "espacio" to 14,
+            "tiempo de rotacion" to 14.32,
+            "idUniverso" to 1
         )
         val cancion12 = hashMapOf(
-            "idCancion" to 2,
-            "nombreC" to "Witchqueen",
-            "duracion" to "03:35:13",
-            "fechaLanzamieto" to "01-01-1990",
-            "isSingle" to false,
-            "numPista" to 10,
-            "gananciasSencillo" to 14.32,
-            "idBanda" to 1
+            "idUniverso" to 2,
+            "nombreUniverso" to "Witchqueen",
+            "estrellas" to "03:35:13",
+            "tamañoo" to "01-01-1990",
+            "isBIG" to false,
+            "espacio" to 10,
+            "tiempo de rotacion" to 14.32,
+            "numUniverso" to 5
         )
         bandas.document("1").set(banda1)
         bandas.document("1").collection("songs").document("1").set(cancion11)

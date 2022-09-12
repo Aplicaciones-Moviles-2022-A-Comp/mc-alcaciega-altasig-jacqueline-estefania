@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "330532893215",
-    "project_id": "examen-bim1",
-    "storage_bucket": "examen-bim1.appspot.com"
+    "project_number": "9606793123",
+    "project_id": "exameniib",
+    "storage_bucket": "exameniib.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:330532893215:android:f7b6b19e56e405ccf55b2a",
+        "mobilesdk_app_id": "1:9606793123:android:43f67f2a65163a59277c16",
         "android_client_info": {
           "package_name": "com.example.examen_bim1"
         }
       },
       "oauth_client": [
         {
-          "client_id": "330532893215-7n1oq0tblhc3h1488bg5o0ieejjvm55b.apps.googleusercontent.com",
+          "client_id": "9606793123-pf39k97ug655t878lo5do1v3ttvf10hv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCTfRKzkOz4efEk3lcJFSl2pU23SdpZ9HQ"
+          "current_key": "AIzaSyAGMNosXNHIBgJLRYGFER1Cpbic-hnCFgI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "330532893215-7n1oq0tblhc3h1488bg5o0ieejjvm55b.apps.googleusercontent.com",
+              "client_id": "9606793123-pf39k97ug655t878lo5do1v3ttvf10hv.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

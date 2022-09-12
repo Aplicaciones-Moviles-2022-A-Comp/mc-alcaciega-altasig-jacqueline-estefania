@@ -16,14 +16,14 @@ class BEditSong : AppCompatActivity() {
 
     var idBandita:Long = 0
     val db = Firebase.firestore
-    val bandas = db.collection("bands")
+    val bandas = db.collection("Universo")
     var bandaSeleccionada:BBanda? = null
 
     val contentIntentExpli = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){ result ->
         if (result.resultCode == Activity.RESULT_OK){
             if (result.data != null){
                 val data = result.data
-                Log.i("intent-epn", "${data?.getStringExtra("Se abre interfaz Canciones")}")
+                Log.i("intent-epn", "${data?.getStringExtra("Se abre interfaz Universo")}")
             }
         }
     }
@@ -50,7 +50,7 @@ class BEditSong : AppCompatActivity() {
         val numeroPC = findViewById<EditText>(R.id.input_editNumPistaS)
         val gananciasC = findViewById<EditText>(R.id.input_editGananciasS)
 
-        tituloC.text = "Editar Canción"
+        tituloC.text = "Editar Universo"
         nombreC.setText(cancionSeleccionada!!.nombreC)
         duracionC.setText(cancionSeleccionada.duracion)
         fechaC.setText(cancionSeleccionada.fechaLanzamieto)

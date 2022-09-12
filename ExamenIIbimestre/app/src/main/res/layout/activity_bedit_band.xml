@@ -21,13 +21,13 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nombre de la Banda"
+        android:text="Nombre del Universo"
         app:layout_constraintBottom_toTopOf="@+id/input_edit_nombrB"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintHorizontal_bias="0.207"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_editarBanda"
-        app:layout_constraintVertical_bias="0.729" />
+        app:layout_constraintVertical_bias="0.657" />
 
     <Switch
         android:id="@+id/sw_edit_isActiveB"
@@ -71,7 +71,7 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Número de Integrantes"
+        android:text="Número de Planetas"
         app:layout_constraintBottom_toTopOf="@+id/input_edit_numeroIB"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.235"
@@ -96,13 +96,13 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lugar de Origen"
+        android:text="Galaxias"
         app:layout_constraintBottom_toTopOf="@+id/input_edit_lugarOB"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.201"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_edit_fechaCB"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.732" />
 
     <EditText
         android:id="@+id/input_edit_fechaCB"
@@ -121,7 +121,7 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fecha de Creación"
+        android:text="Existencia"
         app:layout_constraintBottom_toTopOf="@+id/textView16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.201"

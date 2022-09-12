@@ -23,7 +23,7 @@ class BSongsView : AppCompatActivity() {
     var idBandaGlobal:Long = 0
 
     val db = Firebase.firestore
-    val bandas = db.collection("bands")
+    val bandas = db.collection("Universo")
 
 
     var arregloC = arrayListOf<BCancion>()
@@ -34,7 +34,7 @@ class BSongsView : AppCompatActivity() {
         if (result.resultCode == Activity.RESULT_OK){
             if (result.data != null){
                 val data = result.data
-                Log.i("intent-epn", "${data?.getStringExtra("Se abre interfaz Canciones")}")
+                Log.i("intent-epn", "${data?.getStringExtra("Se abre interfaz Universo")}")
             }
         }
     }
@@ -115,7 +115,7 @@ class BSongsView : AppCompatActivity() {
         val idCancion = arregloC[idItemSeleccion].idCancion
 
         val builder = AlertDialog.Builder(this)
-        builder.setTitle("¿Desea eliminar la banda seleccionada?")
+        builder.setTitle("¿Desea eliminar el universo seleccionada?")
         builder.setPositiveButton(
             "Aceptar", DialogInterface.OnClickListener { dialog, which ->
                 actualizarTest()
@@ -143,7 +143,7 @@ class BSongsView : AppCompatActivity() {
 
 
         with(builder2) {
-            setTitle("Añadir Canción")
+            setTitle("Añadir Universo")
             setPositiveButton("Aceptar") { dialog, which ->
                 //Por positivo
                 insertarCancion(
